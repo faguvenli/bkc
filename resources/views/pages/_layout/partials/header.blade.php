@@ -2,7 +2,7 @@
     <div class="container-sm position-relative">
         <a href="javascript:void(0);" class="hamburger_btn slide-menu__control d-lg-none" data-target="slide-menu" data-action="toggle" type="button"><span></span></a>
 
-        <div class="pt-4 position-relative" style="z-index:2">
+        <div class="pt-4 position-relative d-none d-lg-block" style="z-index:2">
             <ul class="list-unstyled d-flex flex-row justify-content-end mb-2">
                 <li>
                     <a class="text-white px-3" href="#!">

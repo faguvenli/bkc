@@ -7,6 +7,12 @@
             <ul class="splide__list">
 
                 <li class="splide__slide">
+                    <div class="container">
+                        <div class="d-none d-sm-block slider-text">
+                            <h1><strong>Aktif karbon</strong> üretim tesisi kuruyoruz</h1>
+                            <p>Sektörel gelişmelere öncülük eden çalışmaları uluslararası arenada birçok başarılı projenin yürütülmesini ve Türkiye’nin ilk Biochar ve Aktif Karbon Üretim Tesislerini başarıyla tamamlayabilmesini de sağlamıştır. </p>
+                        </div>
+                    </div>
                     <img src="{{ asset('assets/images/sliders/slider1.jpg') }}" alt="BKC">
                 </li>
 
@@ -39,6 +45,7 @@
         </div>
         <div class="row mt-5">
             <div class="col-12 text-center" data-aos="fade-in">
+                <img src="{{ asset('assets/images/leaf.svg') }}" alt="yaprak">
                 <h4>Ürettiğimiz Tesisler ve Özellikleri</h4>
             </div>
         </div>
@@ -230,7 +237,7 @@
                         height: 500
                     },
                     575: {
-                        height: 300
+                        height: 400
                     },
                 }
             }).mount();

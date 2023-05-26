@@ -2,6 +2,15 @@ footer {
     margin-top:100px;
     background-color: #f8f8f8;
     padding: 50px 0 0;
+    * {
+        color: black;
+    }
+    .address {
+        color: #585858;
+        strong {
+            font-size: 1.2em;
+        }
+    }
     .title {
         position:relative;
         display:inline-block;
@@ -16,6 +25,14 @@ footer {
         }
     }
     .social-media {
+        li {
+            border: 1px solid #CCCCCC;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0 5px;
+        }
         i {
             color: #000000;
         }
@@ -23,12 +40,12 @@ footer {
     .links {
         a {
             text-decoration: none;
-            color: #285a7f;
+            color: #000000;
         }
         font-weight: 400;
         font-size: .875em;
         small {
-            color: #285a7f;
+            color: #000000;
         }
     }
 }
