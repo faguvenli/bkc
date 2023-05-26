@@ -4,10 +4,14 @@ header {
         color: white;
         text-decoration: none;
         font-weight: 500;
-        font-size: 1.05em;
+        font-size: .875em;
         &:hover {
             color: white;
         }
+    }
+    .top-bar {
+        z-index:2;
+        font-size: .875em;
     }
     .top-menu {
         display: flex;
@@ -109,7 +113,7 @@ header {
             display: block;
             width: $barWidth;
             height: $barHeight;
-            background-color: #fff;
+            background-color: #000;
             border-radius: $barRadius;
         }
         span {

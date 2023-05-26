@@ -2,11 +2,11 @@
     <div class="container-sm position-relative">
         <a href="javascript:void(0);" class="hamburger_btn slide-menu__control d-lg-none" data-target="slide-menu" data-action="toggle" type="button"><span></span></a>
 
-        <div class="pt-4 position-relative d-none d-lg-block" style="z-index:2">
-            <ul class="list-unstyled d-flex flex-row justify-content-end mb-2">
+        <div class="py-3 position-relative d-none d-lg-block top-bar">
+            <ul class="list-unstyled d-flex flex-row justify-content-end mb-0">
                 <li>
                     <a class="text-white px-3" href="#!">
-                        <i class="fab fa-whatsapp" style="color:green"></i> 0549 449 00 52
+                        <i class="fab fa-whatsapp"></i> 0549 449 00 52
                     </a>
                 </li>
                 <li>
@@ -42,7 +42,7 @@
                     <img src="{{ asset('assets/images/logo.svg') }}" alt="BKC Logo" class="img-fluid">
                 </a>
             </div>
-            <div class="links d-none d-lg-inline-flex justify-content-between">
+            <div class="links d-none d-lg-inline-flex justify-content-between shadow">
                 <ul>
                     <li><a href="#">Kurumsal</a></li>
                     <li><a href="#">Üretim</a></li>
